@@ -1,0 +1,59 @@
+ h2, section{
+    text-align: center;
+    margin: auto;
+    font-style: bold;
+    background-color: yellow;
+    padding: 10px;
+    width:45%;
+    border: double;
+    border: 2px solid red;
+    
+  }
+  
+  
+  h1.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  background-color: rgb(235, 50, 50);
+  border: 2px solid #c21e1e;
+  margin:auto
+ }
+  
+  a{
+   background-color: yellow;
+   
+  }
+  
+  ul{
+    text-align: auto;
+    font-family: sans-serif;
+        
+  }
+
+  p{
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: white;
+   
+  }
+  
+  blockquote{
+    font-style: italic; 
+    background-color: white;
+  }
+  
+  body{
+    background-image: url("https://www.thursdaynightpizza.com/wp-content/uploads/2022/02/square-1200.png"); 
+    background-color: yellow;
+    opacity: .6;
+    padding: 20px;
+  }
+ 
+
+  @media screen and (max-width: 700px) {
+     body {
+      background-image: url("https://img.taste.com.au/u6QNJNgV/taste/2016/11/roast-pumpkin-and-chorizo-pizzas-111258-1.jpg");
+    }
+  }
